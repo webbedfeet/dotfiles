@@ -1,0 +1,37 @@
+{
+	"File header": {
+	"prefix": "header",
+	"body": [
+		"######################################################################" 
+		"# ${1:description}",
+		"#",
+		"# Name: Abhijit Das Gupta",
+		"# Last updated: ${2:date}",
+		"######################################################################" 
+	],
+	"description": "Descriptive file header"
+},
+"Section header": {
+	"prefix": "section",
+	"body": [
+		"# ${1: text} -------------------------------------------------------------------- "
+	]
+},
+"Insert Timestamp": {
+    "prefix": "tstamp",
+    "body": [
+      " $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE"
+    ],
+    "description": "Insert current timestamp "
+  },
+  "Create a function": {
+    "scope": "r",
+    "prefix": "function",
+    "body": [
+      "${1:FunctionName} <- function(${2:Argument}) {",
+      "\t${3:FunctionBody}",
+      "}"
+    ],
+    "description": "Create a function"
+  }
+}

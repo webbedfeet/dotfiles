@@ -1,0 +1,113 @@
+snippet [
+	[${1:label}](${2:location})
+
+snippet ![
+	![${1:label}](${2:location})
+
+snippet r
+	```{r ${1:label}, ${2:options}}
+	${0}
+	```
+
+snippet rcpp
+	```{r, engine='Rcpp'}
+	#include <Rcpp.h>
+	using namespace Rcpp;
+	
+	${0}
+	
+	```
+snippet twopart
+	.pull-left[
+	```{r ${1}, eval=F, echo=T}
+	${2}
+	```
+	]
+	.pull-right[
+	```{r, ref.label = '${1}', eval=T, echo=F}
+	```
+	]
+
+
+snippet col70
+	::::{.columns}
+	:::{.column width="70%"}
+	${1}
+	:::
+	:::{.column width="28%"}
+	${2}
+	:::
+	::::
+
+snippet div
+	::: ${1}
+	${2}
+	:::
+
+snippet frag
+	:::{.fragment}
+	${1}
+	:::
+
+snippet aside
+	[${1:text}]{.aside}
+	
+snippet fence
+	:::{.${1:type}}
+	${2:body}
+	:::
+
+snippet panel
+	::: {.panel-tabset}
+	${1:body}
+	:::
+	
+snippet cols
+	:::: {.columns}
+
+	::: {.column width="47%"}
+	${1:body}
+	:::
+
+	::: {.column width="47%"}
+	${2:body}
+	:::
+
+	::::
+
+snippet notes
+	::: {.notes}
+	${1:body}
+	:::
+
+snippet ctip
+	::: {.callout-tip appearance="simple" icon=true}
+	${1:body}
+	:::
+
+snippet cnote
+	::: {.callout-note appearance="simple" icon=true}
+	${1:body}
+	:::
+
+snippet cwarn
+	::: {.callout-warning appearance="simple" icon=true}
+	${1:body}
+	:::
+
+snippet cimp
+	::: {.callout-important appearance="simple" icon=true}
+	${1:body}
+	:::
+
+snippet ccaution
+	::: {.callout-caution appearance="simple" icon=true}
+	${1:body}
+	:::
+	
+snippet ricon
+	{{< fa brands r-project >}}
+	
+snippet picon
+	{{< fa brands python >}}
+

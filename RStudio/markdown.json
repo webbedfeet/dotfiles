@@ -1,0 +1,13 @@
+{
+  "R symbol": {
+    "prefix": "rbr",
+    "body": ["{{< fa brands r-project >}}"]
+  },
+  "Insert Timestamp in Comment": {
+    "prefix": "timestamp",
+    "body": [
+      " $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND"
+    ],
+    "description": "Insert current timestamp inside an existing R comment"
+  }
+}

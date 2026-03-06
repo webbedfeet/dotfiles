@@ -1,0 +1,14 @@
+{
+  "previewJS": "",
+  "previewSql": "",
+  "layoutZoomLeftColumn": "Shift+Cmd+Left",
+  "layoutZoomRightColumn": "Shift+Cmd+Right",
+  "activateTerminal": "Alt+Cmd+Μ",
+  "knitDocument": "",
+  "layoutConsoleOnLeft": "Alt+Left",
+  "layoutConsoleOnRight": "Alt+Right",
+  "newSourceDoc": "Ctrl+Shift+N",
+  "projectOptions": "Ctrl+Shift+>",
+  "previewJS": "",
+  "previewSql": ""
+}

@@ -1,0 +1,12 @@
+{
+  "workbench.colorTheme": "Default Dark Modern",
+  "r.plot.useHttpgd": true,
+  "r.plot.devArgs": {
+    "width": 1300,
+    "height": 800
+  },
+  "editor.autoIndentOnPaste": true,
+  "editor.tabSize": 2,
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace"
+}
